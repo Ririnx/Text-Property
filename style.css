@@ -1,0 +1,188 @@
+:root{
+    --light-green: #DFF2EB;
+    --light-blue: #B9E5E8;
+    --blue: #7AB2D3;
+    --dark-blue: #4A629A;
+    --black: #000000;
+    --maroon: #10071c;
+    --dark-red: #160d4f;
+    --red: #4d1ba4;
+    --light-red: #FFF0C4;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: var(--red);
+}
+
+.navbar{
+    position: sticky;
+    display: flex;
+    gap: 30px;
+    background: var(--maroon);
+    top: 0;
+    padding: 10px 15px;
+    list-style: none;
+    justify-content: center;
+  }
+
+.navbar a{
+    text-decoration: none;
+    color: var(--light-blue);
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 3px solid var(--black);
+    min-width: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    transition: font-size 0.60s;
+}  
+
+.navbar a:hover{
+    background: var(--light-green);
+    color: var(--black);
+    font-size: 22px;
+}
+
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.css{
+    font-weight: 900;
+    font-size: 40px;
+    color: #e2e2e2;
+}
+
+.font{
+    stroke: #a16c6c;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 3px #21b53c;
+    text-shadow: #21b53c 2px 2px 6px;
+}
+
+.Lorem{
+    text-align: justify;
+    font-size: 20px;
+    margin: 0 20%;
+}
+
+.name-container{
+    text-align: center;
+}
+
+.name{
+    justify-items: center;
+    text-align: center;
+    color: rgb(243, 243, 56);
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid rgb(243, 243, 56);
+    padding: 16px 70px;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+section{
+    padding: 50px;
+    height: 100vh;
+    transition: 0.4s;
+}
+
+#home-section{
+    background: var(--red);
+}
+
+#text-section{
+    background: var(--dark-blue);
+}
+
+#font-section{
+    background: var(--light-blue);
+}
+
+.font-property-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.property-class{
+    border-top: 6px solid green;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    background: var(--light-green);
+    border-radius: 10px;
+}
+
+.property-name{
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.description{
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.text-property-container{
+    display: block;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-property-class{
+    border-left: 6px solid green;
+    padding: 20px;
+    background: var(--light-green);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.property-text{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 0;
+    color: green;
+}
+
+.text-description{
+    font-size: 18px;
+    text-align: center;
+}
+
+.decoration{
+    text-decoration: underline;
+}
+
+.transform{
+    text-transform: uppercase;
+}
+
+.letter-spacing{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
